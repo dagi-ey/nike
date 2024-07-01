@@ -18,15 +18,15 @@ const SpecialOffer = () => {
         The New Styles You Can Wear Discover The New Styles You Can Wear Discover The New Styles You Can Wear</p>
         <p className="mt-4 lg:max-w-lg info-text">Discover The New Styles You Can WearDiscover 
         The New Styles You Can Wear Discover</p>
-        <div className='mt-11 flex flex-wrap gap-4'>
-          <Button label='Shop now' iconURL={arrowRight} />
+        <div className="mt-11">
+        <Button label='Shop now' iconURL={arrowRight} />
           <Button
             label='Learn more'
             backgroundColor='bg-white'
             borderColor='border-slate-gray'
             textColor='text-slate-gray'
           />
-        </div>
+        </div> 
       </div>
     </section>
   )
