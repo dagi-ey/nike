@@ -1,4 +1,3 @@
-import { arrowRight } from "../assets/icons"
 import { offer } from "../assets/images"
 import Button from "../components/button"
 const SpecialOffer = () => {
@@ -11,16 +10,15 @@ const SpecialOffer = () => {
 
       <div className='flex flex-col flex-1'>
         <h2 className="font-bold text-4xl capitalize font-palanquin lg:max-w-lg ">
-          <span className="text-coral-red">Special </span>
-          <span className="text-coral-red">Offer </span>
+          <span className="text-coral-red">Special </span>Offer
         </h2>
         <p className="mt-4 lg:max-w-lg info-text">Discover The New Styles You Can WearDiscover 
         The New Styles You Can Wear Discover The New Styles You Can Wear Discover The New Styles You Can Wear</p>
         <p className="mt-4 lg:max-w-lg info-text">Discover The New Styles You Can WearDiscover 
         The New Styles You Can Wear Discover</p>
-        <div className="mt-11">
-        <Button label='Shop now' iconURL={arrowRight} />
-          <Button
+        <div className="mt-11 flex flex-wrap gap-4">
+        <Button label='Shop now' />
+        <Button
             label='Learn more'
             backgroundColor='bg-white'
             borderColor='border-slate-gray'
